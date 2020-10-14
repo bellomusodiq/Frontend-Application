@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 5px 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+.Container {
+  padding: 20px 10%;
+}
+@media screen and (min-width: 2500px) {
+  .Header {
+      padding: 15px 20%;
+  }
+  .Container {
+    padding: 20px 20%;
+  }
+}
+@media screen and (max-width: 1034px) {
+  .Header {
+      padding: 15px 5%;
+  }
+  .Container {
+    padding: 20px 5%;
+  }
+}

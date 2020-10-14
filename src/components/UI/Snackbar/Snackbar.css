@@ -1,0 +1,16 @@
+.Snackbar {
+    width: 60%;
+    position: fixed;
+    top: 15vh;
+    left: 20%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.658);
+    padding: 10px;
+}
+@media screen and (max-width: 800px) {
+    .Snackbar {
+        width: 80%;
+        top: 10vh;
+        left: 10%;
+    }
+}

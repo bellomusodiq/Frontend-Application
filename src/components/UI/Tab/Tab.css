@@ -1,0 +1,13 @@
+.TabHeader {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.TabHeader > div {
+    width: 50%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.TabHeaderInActive {
+    background: lightgray;
+}

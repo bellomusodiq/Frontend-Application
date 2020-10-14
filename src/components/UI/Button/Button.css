@@ -1,0 +1,13 @@
+.Button {
+    margin: 20px 0;
+    padding: 10px 50px;
+    background:  #2962FF;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+.ButtonDisabled {
+    cursor: not-allowed;
+    opacity: .75;
+}

@@ -1,0 +1,52 @@
+.Header {
+  display: flex;
+  width: 100%;
+  padding: 15px 10%;
+  background: #2962ff;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 2px lightgray;
+}
+.Header > * {
+  color: white;
+}
+.Logo {
+  font-size: bolder;
+}
+.Search {
+  width: 45%;
+}
+.Menu {
+  display: none;
+}
+.Profile > *{
+  margin: 0 20px;
+}
+@media screen and (min-width: 2500px) {
+  .Header {
+    padding: 15px 20%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .Header {
+    padding: 15px 5%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .Search {
+    display: none;
+  }
+  .Menu {
+      display: flex;
+      width: 40px;
+      height: 30px;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  .Menu > div {
+      width: 100%;
+      height: 2px;
+      background: white;
+  }
+}

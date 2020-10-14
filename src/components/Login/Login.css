@@ -1,0 +1,20 @@
+.Login {
+    width: 40%;
+    margin: auto;
+}
+.LoginSignupNav {
+    color:#2962ff;
+}
+.LoginForm {
+    margin: 100px 0;
+}
+@media screen and (max-width: 800px) {
+    .Login {
+        width: 65%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Login {
+        width: 100%;
+    }
+}

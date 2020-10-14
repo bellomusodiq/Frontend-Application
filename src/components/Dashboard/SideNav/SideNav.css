@@ -1,0 +1,39 @@
+.SideNav {
+  width: 25%;
+  padding: 20px;
+  transition: 0.4s all ease;
+}
+.SideNavItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  cursor: pointer;
+  padding: 5px;
+}
+.SideNavItem:hover {
+  background: #2962ff;
+  color: white;
+}
+.SideNavItem > span {
+  width: 15%;
+}
+.SideNavItem > p {
+  flex: 1;
+}
+.Active {
+  background: #2962ff;
+  color: white;
+}
+@media screen and (max-width: 500px) {
+  .SideNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 70vw;
+    box-shadow: 2px 3px 4px lightgray;
+    z-index: 100;
+    background: white;
+  }
+}

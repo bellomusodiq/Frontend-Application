@@ -1,0 +1,7 @@
+.Select {
+    width: 100%;
+}
+.Select > select, .Select > select > option {
+    width: 100%;
+    padding: 10px;
+}
